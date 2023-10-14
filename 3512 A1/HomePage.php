@@ -12,6 +12,7 @@ $conn = connect();
     <meta charset="UTF-8">
     <link rel="stylesheet" href="css/HomePage.css">
     <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/Header.css">
     <title>Welcome</title>
     </head>
 
@@ -20,12 +21,12 @@ $conn = connect();
 <h1>COMP 3512 Assignment 1</h1>
         <h2>Noah & Dallas</h2>
         <nav>
-            <ul>
+        <ul>
                 
-                <li><a href="Homepage.php">HOME</a></li>
-                <li><a href="search.php">SEARCH</a></li>
-                <li><a href="search-results.php">SEARCH RESULTS</a></li>
-                <li><a href="single-page.php">SINGLE SONG</a></li>
+                <li><a href="Homepage.php">Home</a></li>
+                <li><a href="search.php">Search</a></li>
+                <li><a href="search-results.php">Search Results</a></li>
+                <li><a href="single-page.php">Single Song</a></li>
                 <li><a href="favorites.php">Favorites</a></li>
                 <li><a href="about-us.php">About Us</a></li>
             </ul>
@@ -192,6 +193,9 @@ $conn = connect();
 </body>
 
 <footer>
-    
-</footer>
+    <h4>Copyright Noah & Dallas - COMP 3512 - Assignment 1</h4>
+<a href="https://github.com/Noah1018/3512-A1"> Our Repository</a>
+<a href="https://github.com/Noah1018">Noah's github</a>
+<a href="https://github.com/dmax98">Dallas' github</a>
+    </footer>
 </html>

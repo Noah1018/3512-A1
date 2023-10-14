@@ -15,8 +15,10 @@ if(isset($_GET['songID'])) {
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Single Song - COMP 3512 Assign1</title>
-    <link rel="stylesheet" href="css/style.css">
+<title>Single Song Page</title>
+    <link rel="stylesheet" href="css/SingleSongPage.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/Header.css">
 </head>
 <body>
     <header>
@@ -25,10 +27,10 @@ if(isset($_GET['songID'])) {
         <nav>
             <ul>
                 
-                <li><a href="Homepage.php">HOME</a></li>
-                <li><a href="search.php">SEARCH</a></li>
-                <li><a href="search-results.php">SEARCH RESULTS</a></li>
-                <li><a href="single-page.php">SINGLE SONG</a></li>
+                <li><a href="Homepage.php">Home</a></li>
+                <li><a href="search.php">Search</a></li>
+                <li><a href="search-results.php">Search Results</a></li>
+                <li><a href="single-page.php">Single Song </a></li>
                 <li><a href="favorites.php">Favorites</a></li>
                 <li><a href="about-us.php">About Us</a></li>
             </ul>
@@ -57,7 +59,10 @@ if(isset($_GET['songID'])) {
     </main>
 
     <footer>
-      <!-- Add Footer here -->
+    <h4>Copyright Noah & Dallas - COMP 3512 - Assignment 1</h4>
+<a href="https://github.com/Noah1018/3512-A1"> Our Repository</a>
+<a href="https://github.com/Noah1018">Noah's github</a>
+<a href="https://github.com/dmax98">Dallas' github</a>
     </footer>
 </body>
 </html>

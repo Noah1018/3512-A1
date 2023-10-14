@@ -1,30 +1,38 @@
-.footer {
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background-color: #333;
+footer{
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    background-color: var(--HeaderFooter);
     color: white;
-    text-align: center;
-    padding: 10px;
+    margin: auto;
+
+}
+footer>*{
+    margin-left: 10px;
+}
+.Github{
+    width: 60%;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: space-around;
 }
-
-.footer-left {
-    float: 1;
-}
-
-.footer-center {
-    float: 1;
+footer a{
+    position: relative;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding: 8px;
+    border: 1px var(--HeaderFooter);
+    background-color: var(--HeaderFooter);
+    text-decoration: none;
+    width: 100px;
     text-align: center;
+    border-radius: 5%;
 }
-
-.footer-right {
-    float: 1;
+footer a:visited{
+    color: white;
 }
-
-.output{
-    margin-bottom: 80px;
+footer a:link{
+    color: white;
+}
+footer a:hover{
+    background-color: #7D3C98;
 }
