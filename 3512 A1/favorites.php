@@ -45,11 +45,12 @@ if (isset($_GET['action'])) {
 <title>Favourites Page</title>
     <meta charset=utf-8>
     <link rel="stylesheet" href="css/ViewFavorites.css">
+    <link rel="stylesheet" href="css/footer.css">
 </head>
 <body>
     <header>
-        <h1>COMP 3512 Assign1</h1>
-        <h2>Your Name</h2>
+        <h1>COMP 3512 Assignment 1</h1>
+        <h2>Noah & Dallas</h2>
         <nav>
             <ul>
                 

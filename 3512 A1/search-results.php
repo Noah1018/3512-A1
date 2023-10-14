@@ -77,13 +77,15 @@ $songs = $stmt->fetchAll(PDO::FETCH_ASSOC);
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="css/browseResults.css">
+    <link rel="stylesheet" href="css/footer.css">
     <title>Browse Results</title>
 </head>
 <body>
 
 
 <header class="header">
-        <h1>COMP 3512 Assign1</h1>
+<h1>COMP 3512 Assignment 1</h1>
+        <h2>Noah & Dallas</h2>
         <nav>
             <ul>
                 

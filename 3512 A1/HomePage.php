@@ -11,14 +11,17 @@ $conn = connect();
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="css/HomePage.css">
+    <link rel="stylesheet" href="css/footer.css">
     <title>Welcome</title>
     </head>
 
 <body>
 <header class="header">
-    <nav>
+<h1>COMP 3512 Assignment 1</h1>
+        <h2>Noah & Dallas</h2>
+        <nav>
             <ul>
-                <!-- could add icons -->
+                
                 <li><a href="Homepage.php">HOME</a></li>
                 <li><a href="search.php">SEARCH</a></li>
                 <li><a href="search-results.php">SEARCH RESULTS</a></li>
@@ -26,6 +29,7 @@ $conn = connect();
                 <li><a href="favorites.php">Favorites</a></li>
                 <li><a href="about-us.php">About Us</a></li>
             </ul>
+  
 
         </nav>
 </header>
