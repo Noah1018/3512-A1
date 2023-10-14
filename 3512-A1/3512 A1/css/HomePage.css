@@ -1,0 +1,105 @@
+.home_container{
+    width: 85%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 50px;
+    grid-row-gap: 50px;
+    
+}
+.homepage_grid{
+    background-color: rgb(53, 55, 57);
+    min-width: 200px;
+    max-height: 650px;
+    padding-left: 2%;
+    padding-right: 2%;
+    box-shadow: 4px 8px 16px -3px rgba(0, 0, 0, 0.76);
+    border-radius: 10px;
+   
+}
+.homepage_grid > ul > li{
+    padding-top: 4px;
+    padding-bottom: 4px;
+    color: rgb(239, 255, 252);
+    font-weight: bolder;
+    font-size: medium;
+}
+.homepage_grid a:link{
+    color: white;
+}
+.homepage_grid a:visited{
+    color: mediumslateblue ;
+}
+.homepage_grid a:hover{
+    background-color: black;
+    text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.8);
+}
+.homepage_grid a {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+    transition: text-shadow 0.3s ease-in-out;
+}
+
+
+.homepage_grid.top-genres {
+    background-image: url('../image/test12.jpeg');
+    filter: blur(0px); /* Adjust the blur amount as needed */
+    border: 5px solid #D8BCAB;
+}
+.homepage_grid.top-artist {
+    background-image: url('../image/test12.jpeg');
+    filter: blur(0px);
+    border: 5px solid #D8BCAB;
+}
+.homepage_grid.top-songs {
+    background-image: url('../image/test12.jpeg');
+    filter: blur(0px);
+    border: 5px solid #D8BCAB;
+}
+.homepage_grid.one-hit {
+    background-image: url('../image/test12.jpeg');
+    filter: blur(0px);
+    border: 5px solid #D8BCAB;
+}
+.homepage_grid.long {
+    background-image: url('../image/test12.jpeg');
+    filter: blur(0px);
+    border: 5px solid #D8BCAB;
+}
+.homepage_grid.club {
+    background-image: url('../image/test12.jpeg');
+    filter: blur(0px);
+    border: 5px solid #D8BCAB;
+}
+.homepage_grid.run {
+    background-image: url('../image/test12.jpeg');
+    filter: blur(0px);
+    border: 5px solid #D8BCAB;
+
+}
+.homepage_grid.study {
+    background-image: url('../image/test12.jpeg');
+    filter: blur(0px);
+    border: 5px solid #D8BCAB;
+}
+.grid-list {
+    list-style: none;
+}
+.grid-1.blur-item{
+    font-size: 18px; /* Customize the font size for the first grid */
+    color: #060505; /* Customize the color for the first grid */
+    /* Add other styles as needed */
+}
+.blur-text {
+    background-color: rgba(0, 0, 0, 0.3); /* Add a semi-transparent background for better readability */
+    color: #EB9C5C; /* Adjust text color as needed */
+    padding: 10px; /* Add padding for better text readability */
+}
+
+.Github{
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+}
+
+

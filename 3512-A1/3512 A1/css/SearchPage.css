@@ -1,0 +1,76 @@
+
+.main-container {
+    background-image: url('../image/test12.jpeg');
+    background-size: cover;
+    height: 650px; 
+    background-repeat: no-repeat;
+    padding: 20px; 
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 1);
+    margin-top: 50px;  
+    margin-left: auto;  
+    margin-right: auto;  
+    width: 80%;  /* Controls the width of the wooden box */
+    border-radius: 10px;  
+    text-align: center; 
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid #D8BCAB;
+}
+fieldset {
+    border: none;
+}
+label {
+    font-size: 18px; 
+    text-align: center; 
+}
+/* Enlarge search boxes */
+input[type="text"], select, input[type="number"] {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 2px solid #87ceeb;
+    margin-top: 20px;
+}
+
+/* Enlarge radio buttons and adjust associated text */
+input[type="radio"] {
+    transform: scale(1.5);
+}
+input[type="radio"] + label {
+    font-size: 18px; 
+}
+#year_radio, #pop_radio {
+    display: flex;
+    align-items: center;
+    gap: 10px;  
+}
+/* Adjustments for submit button */
+input[type="submit"] {
+    width: 150px;
+    padding: 12px;
+    font-size: 16px;
+    background-color: #87ceeb;
+    border: none;
+    border-radius: 5px;
+    color: #042a2b;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+    background-color: #06a77d;
+}
+
+.search-results ul {
+    list-style: none;
+    padding: 0;
+    text-align: center; 
+}
+
+.search-results li {
+    margin-bottom: 15px;
+}
