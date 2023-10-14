@@ -44,27 +44,12 @@ if (isset($_GET['action'])) {
 <head>
 <title>Favourites Page</title>
     <meta charset=utf-8>
-    <link rel="stylesheet" href="css/ViewFavorites.css">
+    <link rel="stylesheet" href="css/Favorites.css">
     <link rel="stylesheet" href="css/footer.css">
-    <link rel="stylesheet" href="css/Header.css">
+ 
 </head>
 <body>
-    <header>
-        <h1>COMP 3512 Assignment 1</h1>
-        <h2>Noah & Dallas</h2>
-        <nav>
-        <ul>
-                
-                <li><a href="Homepage.php">Home</a></li>
-                <li><a href="search.php">Search</a></li>
-                <li><a href="search-results.php">Search Results</a></li>
-                <li><a href="single-page.php">Single Song </a></li>
-                <li><a href="favorites.php">Favorites</a></li>
-                <li><a href="about-us.php">About Us</a></li>
-            </ul>
-
-        </nav>
-    </header>
+<?php include('header.php') ?>
 
     
     <section>

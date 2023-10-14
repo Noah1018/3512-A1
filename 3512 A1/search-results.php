@@ -76,31 +76,14 @@ $songs = $stmt->fetchAll(PDO::FETCH_ASSOC);
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="css/browseResults.css">
+    <link rel="stylesheet" href="css/Search-Results.css">
     <link rel="stylesheet" href="css/footer.css">
-    <link rel="stylesheet" href="css/Header.css">
-    <title>Browse Results</title>
+    <title>Search Results</title>
 </head>
 <body>
 
+<?php include('header.php') ?>
 
-<header class="header">
-<h1>COMP 3512 Assignment 1</h1>
-        <h2>Noah & Dallas</h2>
-        <nav>
-        <ul>
-                
-                <li><a href="Homepage.php">Home</a></li>
-                <li><a href="search.php">Search</a></li>
-                <li><a href="search-results.php">Search Results</a></li>
-                <li><a href="single-page.php">Single Song </a></li>
-                <li><a href="favorites.php">Favorites</a></li>
-                <li><a href="about-us.php">About Us</a></li>
-            </ul>
-
-        </nav>
-
-    </header>
     <div class="content">
         <table class="browse">
             <tr>

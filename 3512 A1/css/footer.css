@@ -1,11 +1,13 @@
 footer{
-    position: absolute;
+    position: Auto;
     bottom: 0px;
     width: 100%;
-    background-color: var(--HeaderFooter);
+    background-color:  #05042b;
     color: white;
     margin: auto;
-
+    justify-content: space-between;
+    align-items: center;
+    font-family: Arial, sans-serif;
 }
 footer>*{
     margin-left: 10px;
@@ -34,5 +36,5 @@ footer a:link{
     color: white;
 }
 footer a:hover{
-    background-color: #7D3C98;
+    background-color: #150985;
 }

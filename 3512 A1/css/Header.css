@@ -1,5 +1,7 @@
+
+
 header {
-    text-align: center;
+    font-family: Arial, sans-serif;
     color: #87ceeb;
     padding: 5px 0;
     text-shadow: 2px 2px 4px rgba(43, 48, 74, 0.8);
@@ -20,4 +22,14 @@ header a:link{
 header a:hover{
     background-color: #423c98;
     
+}
+
+header h1,h2{
+text-align: left;
+
+}
+
+header nav{
+    padding-right: 10%;
+    text-align: right;
 }
