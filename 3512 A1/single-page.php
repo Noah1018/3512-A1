@@ -2,8 +2,8 @@
 include 'functions.php';
 
 
-if(isset($_GET['song_id'])) {
-    $song_id = $_GET['song_id'];
+if(isset($_GET['songID'])) {
+    $song_id = $_GET['songID'];
     $song = getSongDetails($song_id);
 } else {
 
@@ -22,7 +22,18 @@ if(isset($_GET['song_id'])) {
     <header>
         <h1>COMP 3512 Assign1</h1>
         <h2>Your Name</h2>
-        <!-- Add Navigation here -->
+        <nav>
+            <ul>
+                
+                <li><a href="Homepage.php">HOME</a></li>
+                <li><a href="search.php">SEARCH</a></li>
+                <li><a href="search-results.php">SEARCH RESULTS</a></li>
+                <li><a href="single-page.php">SINGLE SONG</a></li>
+                <li><a href="favorites.php">Favorites</a></li>
+                <li><a href="about-us.php">About Us</a></li>
+            </ul>
+
+        </nav>
     </header>
 
     <main>

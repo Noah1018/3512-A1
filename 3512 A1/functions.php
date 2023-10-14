@@ -19,6 +19,28 @@ function getSongDetails($song_id) {
     return $query->fetch(PDO::FETCH_ASSOC);
 }
 
+function getAllArtists() {
+    $conn = connect();
+
+    $query = "SELECT artist_id, artist_name FROM artists ORDER BY artist_name ASC";
+    $stmt = $conn->prepare($query);
+    $stmt->execute();
+
+    return $stmt->fetchAll(PDO::FETCH_ASSOC);
+}
+
+function getAllGenres() {
+    $conn = connect();
+    
+    $query = "SELECT * FROM genres";
+    $stmt = $conn->prepare($query);
+    $stmt->execute();
+    
+    return $stmt->fetchAll(PDO::FETCH_ASSOC); 
+}
+
+
+
 
 // Add functions 
 ?>

@@ -11,7 +11,7 @@
 /* Global Styles */
 body {
     font-family: var(--font-primary);
-    color: var(--color-text);
+    /* color: var(--color-text); */
     background-color: var(--color-bg);
     margin: 0;
     padding: 0;
@@ -41,7 +41,7 @@ th {
 
 tr:hover {
     background-color: var(--color-accent);
-}
+} 
 
 .button {
     background-color: var(--color-accent);
@@ -55,8 +55,8 @@ tr:hover {
     margin: 4px 2px;
     cursor: pointer;
     border-radius: 8px;
-}
+} */
 
-.button:hover {
+ .button:hover {
     background-color: var(--color-secondary);
 }

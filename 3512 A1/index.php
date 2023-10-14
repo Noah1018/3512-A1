@@ -12,16 +12,20 @@ include 'functions.php';
         <h1>COMP 3512 Assign1</h1>
         <h2>Your Name</h2>
         <nav>
-            <a href="index.php">Home</a>
-            <a href="search.php">search</a>
-            <a href="search-results.php">search-results</a>
-            <a href="single-page.php">single-page</a>
-            <a href="favorites.php">favorites</a>
+            <ul>
+                
+                <li><a href="Homepage.php">HOME</a></li>
+                <li><a href="search.php">SEARCH</a></li>
+                <li><a href="search-results.php">SEARCH RESULTS</a></li>
+                <li><a href="single-page.php">SINGLE SONG</a></li>
+                <li><a href="favorites.php">Favorites</a></li>
+                <li><a href="about-us.php">About Us</a></li>
+            </ul>
 
         </nav>
     </header>
 
-    <!-- Add home page content here -->
+    
 
     <footer>
         <!-- Add Footer here -->
