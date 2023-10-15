@@ -17,7 +17,15 @@ $conn = connect();
 
 <body>
     <?php include('header.php') ?>
-
+<div class="txt">
+    <h1>Home Page</h1>
+<br>
+<h3>This is our product for assignment 1 in COMP 3512 - Web 2
+    <br>
+    We are using a dataset of songs based on information Spotify has gathered about hit songs from 2016 to 2019.
+    This site allows the user to browse and filter songs, examine single songs, and add songs to a
+favorite list.</h3>
+</div>
 <div class="home_container">
 
     <!-- Top Genres -->

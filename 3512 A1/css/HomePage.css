@@ -8,6 +8,10 @@
     grid-row-gap: 50px;
     
 }
+
+div.txt{
+    text-align: center;
+}
 .homepage_grid{
     background-color: rgb(99, 107, 114);
     min-width: 200px;
@@ -20,21 +24,21 @@
     border: 5px solid #4599e9;
    
 }
-/* .homepage_grid > ul > li{
+.homepage_grid > ul > li{
     padding-top: 4px;
     padding-bottom: 4px;
     color: rgb(239, 255, 252);
     font-weight: bolder;
     font-size: medium;
-} */
+}
 .homepage_grid a:link{
     color: white;
 }
 
-/* .homepage_grid a:hover{
-    background-color: black;
+.homepage_grid a:hover{
+    background-color: rgb(143, 194, 253);
     text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.8);
-} */
+}
 /* .homepage_grid a {
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
     transition: text-shadow 0.3s ease-in-out;
