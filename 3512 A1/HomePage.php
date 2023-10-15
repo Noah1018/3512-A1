@@ -76,7 +76,7 @@ favorite list.</h3>
                                 LIMIT 10";
             $result = $conn->query($sqlPopularSongs);
             foreach ($result as $row) {
-                echo "<li><a href='single-page.php?songID=" . $row["song_id"] . "'>" . $row["title"] . "</a> by " . $row["artist_name"] . "</li>";
+                echo "<li><a href='single-song-page.php?songID=" . $row["song_id"] . "'>" . $row["title"] . "</a> by " . $row["artist_name"] . "</li>";
             }
         ?>
         
@@ -96,7 +96,7 @@ favorite list.</h3>
                       LIMIT 10";
         $result = $conn->query($sqlOneHit);
         foreach ($result as $row) {
-            echo "<li><a href='single-page.php?songID=" . $row["song_id"] . "'>" . $row["title"] . "</a> by " . $row["artist_name"] . "</li>";
+            echo "<li><a href='single-song-page.php?songID=" . $row["song_id"] . "'>" . $row["title"] . "</a> by " . $row["artist_name"] . "</li>";
         }
     ?>
     </ul>
@@ -115,7 +115,7 @@ favorite list.</h3>
                             LIMIT 10";
         $result = $conn->query($sqlLongAcoustic);
         foreach ($result as $row) {
-            echo "<li><a href='single-page.php?songID=" . $row["song_id"] . "'>" . $row["title"] . "</a> by " . $row["artist_name"] . "</li>";
+            echo "<li><a href='single-song-page.php?songID=" . $row["song_id"] . "'>" . $row["title"] . "</a> by " . $row["artist_name"] . "</li>";
         }
     ?>
     </ul>
@@ -135,7 +135,7 @@ favorite list.</h3>
                     LIMIT 10";
         $result = $conn->query($sqlClub);
         foreach ($result as $row) {
-            echo "<li><a href='single-page.php?songID=" . $row["song_id"] . "'>" . $row["title"] . "</a> by " . $row["artist_name"] . "</li>";
+            echo "<li><a href='single-song-page.php?songID=" . $row["song_id"] . "'>" . $row["title"] . "</a> by " . $row["artist_name"] . "</li>";
         }
     ?>
     </ul>
@@ -155,7 +155,7 @@ favorite list.</h3>
                        LIMIT 10";
         $result = $conn->query($sqlRunning);
         foreach ($result as $row) {
-            echo "<li><a href='single-page.php?songID=" . $row["song_id"] . "'>" . $row["title"] . "</a> by " . $row["artist_name"] . "</li>";
+            echo "<li><a href='single-song-page.php?songID=" . $row["song_id"] . "'>" . $row["title"] . "</a> by " . $row["artist_name"] . "</li>";
         }
     ?>
     </ul>
@@ -175,7 +175,7 @@ favorite list.</h3>
                         LIMIT 10";
         $result = $conn->query($sqlStudying);
         foreach ($result as $row) {
-            echo "<li><a href='single-page.php?songID=" . $row["song_id"] . "'>" . $row["title"] . "</a> by " . $row["artist_name"] . "</li>";
+            echo "<li><a href='single-song-page.php?songID=" . $row["song_id"] . "'>" . $row["title"] . "</a> by " . $row["artist_name"] . "</li>";
         }
     ?>
     </ul>
