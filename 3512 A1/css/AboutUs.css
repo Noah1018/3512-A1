@@ -10,3 +10,8 @@ body {
     padding: 20px;
     color: #ffffff;
 }
+.about-content {
+    max-width: 600px; /* you can adjust this value as per your design needs */
+    margin: 0 auto; /* centers the content horizontally */
+    padding: 20px; /* creates some space around your content */
+}
