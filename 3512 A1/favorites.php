@@ -50,7 +50,8 @@ if (isset($_GET['action'])) {
 </head>
 <body>
 <?php include('header.php') ?>
-
+<h2>Favorites</h2>
+<input type="submit" href="favourites.php?clear=yes" class="Button" value="Remove All"  >
     
     <section>
     <div class="content">
@@ -60,7 +61,6 @@ if (isset($_GET['action'])) {
                 <th>Artist</th>
                 <th>Year</th>
                 <th>Genre</th>
-
             </tr>
 
             <?php
@@ -92,9 +92,8 @@ if (isset($_GET['action'])) {
                         <td><?= $song['year'] ?></td>
                         <td><?= $song['genre_name'] ?></td>
                         
-                        <td>
-                            <a href='favorites.php?action=remove&songID=<?= $song['song_id'] ?>'>Remove</a>
-                        </td>
+                        <td><a href='favorites.php?action=remove&songID=<?= $song['song_id'] ?>'>Remove</a> </td>
+                        <td><a class="Button" href="single-song-page.php?songID=<?=$song["song_id"]?>">View</a></td>
                     </tr>
                     <?php
                 }
