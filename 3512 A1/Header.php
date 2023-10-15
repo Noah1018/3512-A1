@@ -14,7 +14,6 @@
                 <a href="Homepage.php">Home</a>
                 <a href="search.php">Search</a>
                 <a href="search-results.php">Search Results</a>
-                <a href="single-page.php">Single Song Page</a>
                 <a href="favorites.php">Favorites</a>
                 <a href="about-us.php">About Us</a>
 
