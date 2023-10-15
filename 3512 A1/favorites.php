@@ -52,7 +52,6 @@ if (isset($_GET['action'])) {
 </head>
 <body>
 <?php include('header.php') ?>
-<h2>Favorites</h2>
 
     <section>
     <div class="content">
@@ -107,7 +106,7 @@ if (isset($_GET['action'])) {
         </table>
         <?php
         if (isset($_SESSION['favorites']) && count($_SESSION['favorites']) > 0) {
-            echo "<a href='favorites.php?action=clear'>Clear All Favorites</a>";
+            echo "<a href='favorites.php?action=clear'><button>Remove All</button></a>";
         }
         ?>
       
