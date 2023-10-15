@@ -104,7 +104,7 @@ favorite list.</h3>
 
 <!-- Longest Acoustic Song -->
 <div class="homepage_grid long">
-    <h3>Longest Acoustic Song (Acousticness > 40)</h3>
+    <h3>Longest Acoustic Song</h3>
     <ul>
     <?php
         $sqlLongAcoustic = "SELECT songs.title, artists.artist_name, songs.song_id
@@ -123,7 +123,7 @@ favorite list.</h3>
 
 <!-- At the Club -->
 <div class="homepage_grid club">
-    <h3>At the Club (Danceability > 80)</h3>
+    <h3>At the Club</h3>
     <ul>
     <?php
         $sqlClub = "SELECT songs.title, artists.artist_name, songs.song_id,
@@ -143,7 +143,7 @@ favorite list.</h3>
 
 <!-- Running Songs (bpm between 120-125) -->
 <div class="homepage_grid run">
-    <h3>Running Songs (BPM: 120-125)</h3>
+    <h3>Running Songs</h3>
     <ul>
     <?php
         $sqlRunning = "SELECT songs.title, artists.artist_name, songs.song_id,
@@ -163,7 +163,7 @@ favorite list.</h3>
 
 <!-- Studying (bpm between 100-115 and speechiness between 1-20) -->
 <div class="homepage_grid study">
-    <h3>Studying (BPM: 100-115, Speechiness: 1-20)</h3>
+    <h3>Studying</h3>
     <ul>
     <?php
         $sqlStudying = "SELECT songs.title, artists.artist_name, songs.song_id,
