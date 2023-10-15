@@ -7,11 +7,12 @@ $conn = connect();
 if (isset($_GET['action'])) {
     $action = $_GET['action'];
 
-    if (isset($_GET['songID'])) {
-        $song_id = $_GET['songID'];
-    } else {
-        
-        die("Song ID is not specified."); 
+    if ($action === 'add' || $action === 'remove') {
+        if (isset($_GET['songID'])) {
+            $song_id = $_GET['songID'];
+        } else {
+            die("Song ID is not specified.");
+        }
     }
 
     switch ($action) {
@@ -38,6 +39,7 @@ if (isset($_GET['action'])) {
             break;
     }
 }
+
 ?>
 <!DOCTYPE html>
 <html>
@@ -52,17 +54,19 @@ if (isset($_GET['action'])) {
 <?php include('header.php') ?>
 
     
-    <section>
+<section>
     <div class="content">
+        <h2>Favorites
+           
+        </h2>
         <table class="browse">
             <tr>
                 <th>Title</th>
                 <th>Artist</th>
                 <th>Year</th>
                 <th>Genre</th>
-
+                <th>Action</th>
             </tr>
-
             <?php
             if (isset($_SESSION['favorites']) && count($_SESSION['favorites']) > 0) {
                 
@@ -106,7 +110,7 @@ if (isset($_GET['action'])) {
 
         <?php
         if (isset($_SESSION['favorites']) && count($_SESSION['favorites']) > 0) {
-            echo "<a href='favorites.php?action=clear'>Clear All Favorites</a>";
+            echo "<a href='favorites.php?action=clear'>Remove All</a>";
         }
         ?>
     </div>
