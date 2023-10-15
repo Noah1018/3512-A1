@@ -16,6 +16,7 @@ $conn = connect();
     </head>
 
 <body>
+<div class="content-wrapper">
     <?php include('header.php') ?>
 <div class="txt">
     <h1>Home Page</h1>
@@ -179,14 +180,15 @@ favorite list.</h3>
     ?>
     </ul>
 </div>
-
-
-</body>
-
+</div>
 <footer>
     <h4>Copyright Noah & Dallas - COMP 3512 - Assignment 1</h4>
 <a href="https://github.com/Noah1018/3512-A1"> Our Repository</a>
 <a href="https://github.com/Noah1018">Noah's github</a>
 <a href="https://github.com/dmax98">Dallas' github</a>
     </footer>
+
+</body>
+
+
 </html>
