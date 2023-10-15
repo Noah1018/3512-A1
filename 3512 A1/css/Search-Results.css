@@ -1,62 +1,22 @@
-/* :root {
-    --color-primary: #4A4E69;
-    --color-secondary: #9A8C98;
-    --color-accent: #1a879b;
-    --color-text: #ffffff;
-    
-    --font-primary: 'Arial', sans-serif;
-    --font-secondary: 'Courier New', Courier, monospace;
-} */
-
-/* Global Styles 
-body {
-    font-family: var(--font-primary);
-    /* color: var(--color-text); 
-    background-color: var(--color-bg);
-    margin: 0;
-    padding: 0;
-} */
-
-
-
-.content {
-    padding: 20px;
-}
-
 table {
     width: 100%;
-    margin-top: 20px;
     border-collapse: collapse;
+    border: 1px solid #ddd;
+    margin: 20px 0;
 }
-
 th, td {
-    padding: 10px;
-    border-bottom: 1px solid var(--color-secondary);
-    text-align: center;  
+    padding: 12px;
+    text-align: left;
 }
 
-th {
-    background-color: var(--color-accent);
-}
+input[name="show all"]{
+    align-items: end;
+    padding-right: 20px ;
+    }
 
-tr:hover {
-    background-color: var(--color-accent);
-} 
-
-.button {
-    background-color: var(--color-accent);
-    border: none;
-    color: var(--color-bg);
-    padding: 10px 20px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-    border-radius: 8px;
-} */
-
- .button:hover {
-    background-color: var(--color-secondary);
-}
+    tr:nth-child(even) {
+        background-color: rgb(155, 175, 229);
+    }
+    tr:nth-child(odd) {
+        background-color: rgb(75, 82, 92);
+    }

@@ -84,6 +84,10 @@ $songs = $stmt->fetchAll(PDO::FETCH_ASSOC);
 
 <?php include('header.php') ?>
 
+<h2>Browse/Search Results
+<input type="submit" name="show all" value="Show All">
+</h2>
+<!-- <h4> search filter/ criteria if any </h4> -->
     <div class="content">
         <table class="browse">
             <tr>
@@ -104,7 +108,7 @@ $songs = $stmt->fetchAll(PDO::FETCH_ASSOC);
                     <td><?=$song['genre_name']?></td>
                     
                     <td><a href="favorites.php?action=add&songID=<?= $song['song_id'] ?>">Add to Favorites</a></td>
-                    <td><a class="Button" href="single-page.php?songID=<?=$song["song_id"]?>">View</a></td>
+                    <td><a class="Button" href="single-song-page.php?songID=<?=$song["song_id"]?>">View</a></td>
 
                 </tr>  
                 <?php

@@ -10,12 +10,16 @@ include 'functions.php';
 </head>
 <body>
 <?php include('header.php') ?>
-
+<h2>Basic Song Search</h2>
     <form action="search-results.php" method="get">
     Search by: <br>
+
+    <div class="title">
     <input type="radio" name="searchType" value="title"> Title
     <input type="text" name="title"><br>
-    
+    </div>
+<br>
+<div class="AG">
     <input type="radio" name="searchType" value="artist"> Artist
     <select name="artist_id"> <option value="">--Select an Artist--</option>
     <?php
@@ -25,7 +29,10 @@ include 'functions.php';
     }
     ?>
     </select>
-    <br>
+
+    
+
+    
     <input type="radio" name="searchType" value="genre"> Genre
     <select name="genre_id"> <option value="">--Select a Genre--</option>
     <?php
@@ -35,19 +42,26 @@ include 'functions.php';
     }
     ?>
     </select>
+    </div>
+
+
+    <div class="Year" >
     <br>
     <input type="radio" name="searchType" value="yearEquals"> Year
-    <input type="text" name="yearValue"><br>
-
-    <input type="radio" name="searchType" value="yearGreaterThan">Greater
-    <input type="text" name="yearGreaterThan"><br>
+    <!-- <input type="text" name="yearValue">-->
+    
 
     <input type="radio" name="searchType" value="yearLessThan">Less
-    <input type="text" name="yearLessThan"><br>
+    <input type="text" name="less">
 
+    <input type="radio" name="searchType" value="yearGreaterThan">Greater
+    <input type="text" name="great"><br>
 
     
-    <input type="submit" value="Search">
+    </div>
+<br>
+    
+    <input type="submit" name= "search" value="Search">
 </form>
 
 
