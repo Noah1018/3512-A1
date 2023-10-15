@@ -8,16 +8,20 @@
     grid-row-gap: 50px;
     
 }
+
+div.txt{
+    text-align: center;
+}
 .homepage_grid{
-    background-color: rgb(53, 55, 57);
+    background-color: rgb(99, 107, 114);
     min-width: 200px;
     max-height: 650px;
     padding-left: 2%;
     padding-right: 2%;
     box-shadow: 4px 8px 16px -3px rgba(0, 0, 0, 0.76);
     border-radius: 10px;
-    
-    border: 5px solid #D8BCAB;
+    color: white;
+    border: 5px solid #4599e9;
    
 }
 .homepage_grid > ul > li{
@@ -30,14 +34,12 @@
 .homepage_grid a:link{
     color: white;
 }
-.homepage_grid a:visited{
-    color: mediumslateblue ;
-}
+
 .homepage_grid a:hover{
-    background-color: black;
+    background-color: rgb(143, 194, 253);
     text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.8);
 }
-.homepage_grid a {
+/* .homepage_grid a {
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
     transition: text-shadow 0.3s ease-in-out;
-}
+} */

@@ -9,32 +9,18 @@ footer{
     align-items: center;
     font-family: Arial, sans-serif;
 }
-footer>*{
-    margin-left: 10px;
-}
-.Github{
-    width: 60%;
-    display: flex;
-    justify-content: space-around;
-}
+
 footer a{
     position: relative;
     margin-top: auto;
     margin-bottom: auto;
-    padding: 8px;
-    border: 1px var(--HeaderFooter);
-    background-color: var(--HeaderFooter);
+    padding: 5px;
     text-decoration: none;
     width: 100px;
     text-align: center;
     border-radius: 5%;
 }
-footer a:visited{
-    color: white;
-}
-footer a:link{
-    color: white;
-}
+
 footer a:hover{
     background-color: #150985;
 }

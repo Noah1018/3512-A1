@@ -18,5 +18,5 @@ input[name="show all"]{
         background-color: rgb(155, 175, 229);
     }
     tr:nth-child(odd) {
-        background-color: rgb(75, 82, 92);
+        background-color: rgb(96, 106, 119);
     }
