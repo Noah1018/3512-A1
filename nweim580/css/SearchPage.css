@@ -1,0 +1,19 @@
+input[name="title"]{
+    width: 75%;
+}
+input[name="artist_id"]{
+    width: 45%;
+}
+input[name="genre"]{
+    width: 30%;
+}
+
+input[name="less"]{
+    width: 20%;
+}
+input[name="great"]{
+    width: 20%;
+}
+input[name="search"]{
+padding-left: 20px ;
+}

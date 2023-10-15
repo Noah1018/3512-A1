@@ -1,0 +1,17 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+
+#about-us {
+    text-align: center;
+    padding: 20px;
+    color: #ffffff;
+}
+.about-content {
+    max-width: 600px; /* you can adjust this value as per your design needs */
+    margin: 0 auto; /* centers the content horizontally */
+    padding: 20px; /* creates some space around your content */
+}

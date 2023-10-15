@@ -1,0 +1,35 @@
+
+
+header {
+    font-family: Arial, sans-serif;
+    color: #87ceeb;
+    padding: 5px 0;
+    text-shadow: 2px 2px 4px rgba(43, 48, 74, 0.8);
+    font-size: 20px; 
+    background-color: #05042b;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid #a7bb35;
+    margin-bottom: 10px; 
+    border: 5px solid #a2c7ff; 
+    border-radius: 10px;
+}
+header a:visited{
+    color: white;
+}
+header a:link{
+    color: white;
+}
+header a:hover{
+    background-color: #423c98;
+    
+}
+
+header h1,h2{
+text-align: left;
+
+}
+
+header nav{
+    padding-right: 10%;
+    text-align: right;
+}
